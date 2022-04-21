@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "projects": {
+    "booksy-minimal": "apps/booksy-minimal",
+    "booksy-minimal-e2e": "apps/booksy-minimal-e2e"
+  }
+}
