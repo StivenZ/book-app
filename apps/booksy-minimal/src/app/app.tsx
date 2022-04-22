@@ -1,13 +1,16 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
+import AddBook from './components/AddBook/AddBook';
+import Header from './components/Header/Header';
+import Library from './components/Library/Library';
 
 export function App() {
   return (
-    <>
-      <NxWelcome title="booksy-minimal" />
-      <div />
-    </>
+      <div className='App'>
+        <Header/>
+        <AddBook/>
+        <Library/>
+      </div>
   );
 }
 
